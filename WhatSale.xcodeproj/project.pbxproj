@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1153C60A1646F005002B57E0 /* SlidingDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1153C6091646F005002B57E0 /* SlidingDatePicker.m */; };
+		1153C60F1646F412002B57E0 /* ItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1153C60D1646F412002B57E0 /* ItemTableViewCell.m */; };
+		1153C6101646F412002B57E0 /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1153C60E1646F412002B57E0 /* ItemTableViewCell.xib */; };
+		1153C6121646F54D002B57E0 /* PostItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1153C6111646F54D002B57E0 /* PostItemViewController.xib */; };
+		1153C6131646F6D3002B57E0 /* PostItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1153C6111646F54D002B57E0 /* PostItemViewController.xib */; };
+		1153C6151646F70C002B57E0 /* SlidingDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1153C6091646F005002B57E0 /* SlidingDatePicker.m */; };
+		1153C6161646F764002B57E0 /* ItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1153C60D1646F412002B57E0 /* ItemTableViewCell.m */; };
+		1153C61C164729BD002B57E0 /* UpdateItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1153C61A164729BD002B57E0 /* UpdateItemViewController.m */; };
+		1153C61D164729BD002B57E0 /* UpdateItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1153C61B164729BD002B57E0 /* UpdateItemViewController.xib */; };
+		1153C62116475D2D002B57E0 /* no_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1153C62016475D2D002B57E0 /* no_image.jpg */; };
+		1167C6BA164AF26F00A723F2 /* ItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1167C6B8164AF26F00A723F2 /* ItemDetailViewController.m */; };
+		1167C6BB164AF26F00A723F2 /* ItemDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1167C6B9164AF26F00A723F2 /* ItemDetailViewController.xib */; };
+		11786B9D165310680046C817 /* ChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11786B9B165310680046C817 /* ChangePasswordViewController.m */; };
+		11786B9E165310680046C817 /* ChangePasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11786B9C165310680046C817 /* ChangePasswordViewController.xib */; };
+		11786BA0165310850046C817 /* ChangePasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11786B9C165310680046C817 /* ChangePasswordViewController.xib */; };
+		11786BA1165310950046C817 /* ChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11786B9B165310680046C817 /* ChangePasswordViewController.m */; };
+		11F0C50D163496BF00ACD4A0 /* CloudMine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F0C50C163496BF00ACD4A0 /* CloudMine.framework */; };
+		11F0C5181634A0EE00ACD4A0 /* whtslogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 11F0C5171634A0EE00ACD4A0 /* whtslogo.png */; };
+		1A13790B162A129C009B315B /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A13790A162A129C009B315B /* User.m */; };
+		1A13790F162A12B7009B315B /* Listing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A13790E162A12B7009B315B /* Listing.m */; };
+		1A137917162A1AF3009B315B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A137916162A1AF3009B315B /* CFNetwork.framework */; };
+		1A137919162A1B0E009B315B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A137918162A1B0E009B315B /* libz.dylib */; };
+		1A13791B162A1B19009B315B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A13791A162A1B19009B315B /* MobileCoreServices.framework */; };
+		1A13791D162A1B24009B315B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A13791C162A1B24009B315B /* SystemConfiguration.framework */; };
+		1A1E17DC16347FFE00AE989C /* ItemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1E17DB16347FFE00AE989C /* ItemTableViewController.m */; };
+		1A1E17DD16347FFE00AE989C /* ItemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1E17DB16347FFE00AE989C /* ItemTableViewController.m */; };
+		1A1E17E21634801700AE989C /* PostItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1E17DF1634801700AE989C /* PostItemViewController.m */; };
+		1A1E17E31634801700AE989C /* PostItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1E17DF1634801700AE989C /* PostItemViewController.m */; };
+		1A1E17E61634801700AE989C /* ItemTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A1E17E11634801700AE989C /* ItemTableViewController.xib */; };
+		1A1E17E71634801700AE989C /* ItemTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A1E17E11634801700AE989C /* ItemTableViewController.xib */; };
+		1A1E17EB1634840D00AE989C /* ImageViewWithBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1E17EA1634840D00AE989C /* ImageViewWithBorder.m */; };
+		1A1E17EC1634840D00AE989C /* ImageViewWithBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1E17EA1634840D00AE989C /* ImageViewWithBorder.m */; };
+		1A2F1D33162A11790020DA53 /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2F1D32162A11790020DA53 /* Session.m */; };
+		1A446CD616431EA80056EC42 /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A446CD516431EA80056EC42 /* Annotation.m */; };
+		1A83895D1630C86B00799D99 /* MainScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A83895B1630C86B00799D99 /* MainScreenViewController.m */; };
+		1A83895E1630C86B00799D99 /* MainScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A83895C1630C86B00799D99 /* MainScreenViewController.xib */; };
+		1A84922A1631D206008CACE4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8492291631D206008CACE4 /* CoreLocation.framework */; };
+		1A8492311631E778008CACE4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8492301631E778008CACE4 /* MapKit.framework */; };
+		1AB6A54D1627765E00BE9D46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB6A54C1627765E00BE9D46 /* UIKit.framework */; };
+		1AB6A54F1627765E00BE9D46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB6A54E1627765E00BE9D46 /* Foundation.framework */; };
+		1AB6A5511627765E00BE9D46 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB6A5501627765E00BE9D46 /* CoreGraphics.framework */; };
+		1AB6A5571627765F00BE9D46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AB6A5551627765F00BE9D46 /* InfoPlist.strings */; };
+		1AB6A5591627765F00BE9D46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB6A5581627765F00BE9D46 /* main.m */; };
+		1AB6A55D1627765F00BE9D46 /* WhatSaleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB6A55C1627765F00BE9D46 /* WhatSaleAppDelegate.m */; };
+		1AB6A5601627765F00BE9D46 /* WhatSaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB6A55F1627765F00BE9D46 /* WhatSaleViewController.m */; };
+		1AB6A5631627765F00BE9D46 /* WhatSaleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AB6A5611627765F00BE9D46 /* WhatSaleViewController.xib */; };
+		1AB6A56B1627766000BE9D46 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB6A56A1627766000BE9D46 /* SenTestingKit.framework */; };
+		1AB6A56C1627766000BE9D46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB6A54C1627765E00BE9D46 /* UIKit.framework */; };
+		1AB6A56D1627766000BE9D46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB6A54E1627765E00BE9D46 /* Foundation.framework */; };
+		1AB6A5751627766000BE9D46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AB6A5731627766000BE9D46 /* InfoPlist.strings */; };
+		1AB6A5781627766000BE9D46 /* WhatSaleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB6A5771627766000BE9D46 /* WhatSaleTests.m */; };
+		1ABFA1CC16456D4A00533FAF /* BuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABFA1CA16456D4A00533FAF /* BuyViewController.m */; };
+		1ABFA1CD16456D4A00533FAF /* BuyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ABFA1CB16456D4A00533FAF /* BuyViewController.xib */; };
+		1ACCAFA216406E7000B6883C /* NearMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACCAFA016406E7000B6883C /* NearMeViewController.m */; };
+		1ACCAFA316406E7000B6883C /* NearMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ACCAFA116406E7000B6883C /* NearMeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AB6A56E1627766000BE9D46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AB6A53F1627765E00BE9D46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AB6A5471627765E00BE9D46;
+			remoteInfo = WhatSale;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1153C6081646F005002B57E0 /* SlidingDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingDatePicker.h; sourceTree = "<group>"; };
+		1153C6091646F005002B57E0 /* SlidingDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidingDatePicker.m; sourceTree = "<group>"; };
+		1153C60C1646F412002B57E0 /* ItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemTableViewCell.h; sourceTree = "<group>"; };
+		1153C60D1646F412002B57E0 /* ItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemTableViewCell.m; sourceTree = "<group>"; };
+		1153C60E1646F412002B57E0 /* ItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
+		1153C6111646F54D002B57E0 /* PostItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostItemViewController.xib; sourceTree = "<group>"; };
+		1153C619164729BD002B57E0 /* UpdateItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateItemViewController.h; sourceTree = "<group>"; };
+		1153C61A164729BD002B57E0 /* UpdateItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateItemViewController.m; sourceTree = "<group>"; };
+		1153C61B164729BD002B57E0 /* UpdateItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UpdateItemViewController.xib; sourceTree = "<group>"; };
+		1153C62016475D2D002B57E0 /* no_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = no_image.jpg; sourceTree = "<group>"; };
+		1167C6B7164AF26E00A723F2 /* ItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailViewController.h; sourceTree = "<group>"; };
+		1167C6B8164AF26F00A723F2 /* ItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDetailViewController.m; sourceTree = "<group>"; };
+		1167C6B9164AF26F00A723F2 /* ItemDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemDetailViewController.xib; sourceTree = "<group>"; };
+		11786B9A165310680046C817 /* ChangePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChangePasswordViewController.h; path = WhatSale/ChangePasswordViewController.h; sourceTree = "<group>"; };
+		11786B9B165310680046C817 /* ChangePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChangePasswordViewController.m; path = WhatSale/ChangePasswordViewController.m; sourceTree = "<group>"; };
+		11786B9C165310680046C817 /* ChangePasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChangePasswordViewController.xib; path = WhatSale/ChangePasswordViewController.xib; sourceTree = "<group>"; };
+		11F0C50C163496BF00ACD4A0 /* CloudMine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CloudMine.framework; sourceTree = "<group>"; };
+		11F0C5171634A0EE00ACD4A0 /* whtslogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whtslogo.png; sourceTree = "<group>"; };
+		1A137909162A129C009B315B /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = WhatSale/User.h; sourceTree = "<group>"; };
+		1A13790A162A129C009B315B /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = WhatSale/User.m; sourceTree = "<group>"; };
+		1A13790D162A12B7009B315B /* Listing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Listing.h; path = WhatSale/Listing.h; sourceTree = "<group>"; };
+		1A13790E162A12B7009B315B /* Listing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Listing.m; path = WhatSale/Listing.m; sourceTree = "<group>"; };
+		1A137916162A1AF3009B315B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1A137918162A1B0E009B315B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		1A13791A162A1B19009B315B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1A13791C162A1B24009B315B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1A1E17DA16347FEF00AE989C /* ItemTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemTableViewController.h; sourceTree = "<group>"; };
+		1A1E17DB16347FFE00AE989C /* ItemTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemTableViewController.m; sourceTree = "<group>"; };
+		1A1E17DE1634801700AE989C /* PostItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostItemViewController.h; sourceTree = "<group>"; };
+		1A1E17DF1634801700AE989C /* PostItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostItemViewController.m; sourceTree = "<group>"; };
+		1A1E17E11634801700AE989C /* ItemTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemTableViewController.xib; sourceTree = "<group>"; };
+		1A1E17E91634840D00AE989C /* ImageViewWithBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewWithBorder.h; sourceTree = "<group>"; };
+		1A1E17EA1634840D00AE989C /* ImageViewWithBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewWithBorder.m; sourceTree = "<group>"; };
+		1A2F1D31162A11790020DA53 /* Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Session.h; path = WhatSale/Session.h; sourceTree = "<group>"; };
+		1A2F1D32162A11790020DA53 /* Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Session.m; path = WhatSale/Session.m; sourceTree = "<group>"; };
+		1A446CD416431EA80056EC42 /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
+		1A446CD516431EA80056EC42 /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
+		1A83895A1630C86B00799D99 /* MainScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreenViewController.h; sourceTree = "<group>"; };
+		1A83895B1630C86B00799D99 /* MainScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreenViewController.m; sourceTree = "<group>"; };
+		1A83895C1630C86B00799D99 /* MainScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainScreenViewController.xib; sourceTree = "<group>"; };
+		1A8492291631D206008CACE4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1A8492301631E778008CACE4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1AB6A5481627765E00BE9D46 /* WhatSale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatSale.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB6A54C1627765E00BE9D46 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1AB6A54E1627765E00BE9D46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1AB6A5501627765E00BE9D46 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1AB6A5541627765E00BE9D46 /* WhatSale-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhatSale-Info.plist"; sourceTree = "<group>"; };
+		1AB6A5561627765F00BE9D46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1AB6A5581627765F00BE9D46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AB6A55A1627765F00BE9D46 /* WhatSale-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhatSale-Prefix.pch"; sourceTree = "<group>"; };
+		1AB6A55B1627765F00BE9D46 /* WhatSaleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhatSaleAppDelegate.h; sourceTree = "<group>"; };
+		1AB6A55C1627765F00BE9D46 /* WhatSaleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatSaleAppDelegate.m; sourceTree = "<group>"; };
+		1AB6A55E1627765F00BE9D46 /* WhatSaleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhatSaleViewController.h; sourceTree = "<group>"; };
+		1AB6A55F1627765F00BE9D46 /* WhatSaleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatSaleViewController.m; sourceTree = "<group>"; };
+		1AB6A5621627765F00BE9D46 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WhatSaleViewController.xib; sourceTree = "<group>"; };
+		1AB6A5691627766000BE9D46 /* WhatSaleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatSaleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB6A56A1627766000BE9D46 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1AB6A5721627766000BE9D46 /* WhatSaleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhatSaleTests-Info.plist"; sourceTree = "<group>"; };
+		1AB6A5741627766000BE9D46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1AB6A5761627766000BE9D46 /* WhatSaleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhatSaleTests.h; sourceTree = "<group>"; };
+		1AB6A5771627766000BE9D46 /* WhatSaleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatSaleTests.m; sourceTree = "<group>"; };
+		1ABFA1C916456D4A00533FAF /* BuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyViewController.h; sourceTree = "<group>"; };
+		1ABFA1CA16456D4A00533FAF /* BuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyViewController.m; sourceTree = "<group>"; };
+		1ABFA1CB16456D4A00533FAF /* BuyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BuyViewController.xib; sourceTree = "<group>"; };
+		1ACCAF9F16406E7000B6883C /* NearMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NearMeViewController.h; path = WhatSale/NearMeViewController.h; sourceTree = "<group>"; };
+		1ACCAFA016406E7000B6883C /* NearMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NearMeViewController.m; path = WhatSale/NearMeViewController.m; sourceTree = "<group>"; };
+		1ACCAFA116406E7000B6883C /* NearMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NearMeViewController.xib; path = WhatSale/NearMeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AB6A5451627765E00BE9D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A8492311631E778008CACE4 /* MapKit.framework in Frameworks */,
+				1A84922A1631D206008CACE4 /* CoreLocation.framework in Frameworks */,
+				1AB6A54D1627765E00BE9D46 /* UIKit.framework in Frameworks */,
+				1A13791D162A1B24009B315B /* SystemConfiguration.framework in Frameworks */,
+				1A13791B162A1B19009B315B /* MobileCoreServices.framework in Frameworks */,
+				1A137919162A1B0E009B315B /* libz.dylib in Frameworks */,
+				1AB6A5511627765E00BE9D46 /* CoreGraphics.framework in Frameworks */,
+				1A137917162A1AF3009B315B /* CFNetwork.framework in Frameworks */,
+				1AB6A54F1627765E00BE9D46 /* Foundation.framework in Frameworks */,
+				11F0C50D163496BF00ACD4A0 /* CloudMine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB6A5651627766000BE9D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB6A56B1627766000BE9D46 /* SenTestingKit.framework in Frameworks */,
+				1AB6A56C1627766000BE9D46 /* UIKit.framework in Frameworks */,
+				1AB6A56D1627766000BE9D46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A1E17D316347D4B00AE989C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11786B9A165310680046C817 /* ChangePasswordViewController.h */,
+				11786B9B165310680046C817 /* ChangePasswordViewController.m */,
+				11786B9C165310680046C817 /* ChangePasswordViewController.xib */,
+				1153C62016475D2D002B57E0 /* no_image.jpg */,
+				1153C6111646F54D002B57E0 /* PostItemViewController.xib */,
+				1153C6081646F005002B57E0 /* SlidingDatePicker.h */,
+				1153C6091646F005002B57E0 /* SlidingDatePicker.m */,
+				1A1E17DE1634801700AE989C /* PostItemViewController.h */,
+				1A1E17DF1634801700AE989C /* PostItemViewController.m */,
+				1A1E17E91634840D00AE989C /* ImageViewWithBorder.h */,
+				1A1E17EA1634840D00AE989C /* ImageViewWithBorder.m */,
+				1ABFA1C916456D4A00533FAF /* BuyViewController.h */,
+				1ABFA1CA16456D4A00533FAF /* BuyViewController.m */,
+				1ABFA1CB16456D4A00533FAF /* BuyViewController.xib */,
+				1A1E17E11634801700AE989C /* ItemTableViewController.xib */,
+				1153C60C1646F412002B57E0 /* ItemTableViewCell.h */,
+				1153C60D1646F412002B57E0 /* ItemTableViewCell.m */,
+				1153C60E1646F412002B57E0 /* ItemTableViewCell.xib */,
+				1A1E17DB16347FFE00AE989C /* ItemTableViewController.m */,
+				1A1E17DA16347FEF00AE989C /* ItemTableViewController.h */,
+				1153C619164729BD002B57E0 /* UpdateItemViewController.h */,
+				1153C61A164729BD002B57E0 /* UpdateItemViewController.m */,
+				1153C61B164729BD002B57E0 /* UpdateItemViewController.xib */,
+				1167C6B7164AF26E00A723F2 /* ItemDetailViewController.h */,
+				1167C6B8164AF26F00A723F2 /* ItemDetailViewController.m */,
+				1167C6B9164AF26F00A723F2 /* ItemDetailViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1A2F1D34162A11910020DA53 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1A2F1D31162A11790020DA53 /* Session.h */,
+				1A2F1D32162A11790020DA53 /* Session.m */,
+				1A137909162A129C009B315B /* User.h */,
+				1A13790A162A129C009B315B /* User.m */,
+				1A13790E162A12B7009B315B /* Listing.m */,
+				1A13790D162A12B7009B315B /* Listing.h */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1A446CD216431E4E0056EC42 /* MapViews */ = {
+			isa = PBXGroup;
+			children = (
+				1ACCAF9F16406E7000B6883C /* NearMeViewController.h */,
+				1A446CD416431EA80056EC42 /* Annotation.h */,
+				1A446CD516431EA80056EC42 /* Annotation.m */,
+				1ACCAFA116406E7000B6883C /* NearMeViewController.xib */,
+				1ACCAFA016406E7000B6883C /* NearMeViewController.m */,
+			);
+			name = MapViews;
+			sourceTree = "<group>";
+		};
+		1AB6A53D1627765E00BE9D46 = {
+			isa = PBXGroup;
+			children = (
+				1A446CD216431E4E0056EC42 /* MapViews */,
+				11F0C5171634A0EE00ACD4A0 /* whtslogo.png */,
+				1A1E17D316347D4B00AE989C /* Views */,
+				1A2F1D34162A11910020DA53 /* Models */,
+				1AB6A5521627765E00BE9D46 /* WhatSale */,
+				1AB6A5701627766000BE9D46 /* WhatSaleTests */,
+				1AB6A54B1627765E00BE9D46 /* Frameworks */,
+				1AB6A5491627765E00BE9D46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AB6A5491627765E00BE9D46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AB6A5481627765E00BE9D46 /* WhatSale.app */,
+				1AB6A5691627766000BE9D46 /* WhatSaleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AB6A54B1627765E00BE9D46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11F0C50C163496BF00ACD4A0 /* CloudMine.framework */,
+				1A8492301631E778008CACE4 /* MapKit.framework */,
+				1A8492291631D206008CACE4 /* CoreLocation.framework */,
+				1A13791C162A1B24009B315B /* SystemConfiguration.framework */,
+				1A13791A162A1B19009B315B /* MobileCoreServices.framework */,
+				1A137918162A1B0E009B315B /* libz.dylib */,
+				1A137916162A1AF3009B315B /* CFNetwork.framework */,
+				1AB6A54C1627765E00BE9D46 /* UIKit.framework */,
+				1AB6A54E1627765E00BE9D46 /* Foundation.framework */,
+				1AB6A5501627765E00BE9D46 /* CoreGraphics.framework */,
+				1AB6A56A1627766000BE9D46 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AB6A5521627765E00BE9D46 /* WhatSale */ = {
+			isa = PBXGroup;
+			children = (
+				1AB6A55B1627765F00BE9D46 /* WhatSaleAppDelegate.h */,
+				1AB6A55C1627765F00BE9D46 /* WhatSaleAppDelegate.m */,
+				1AB6A55E1627765F00BE9D46 /* WhatSaleViewController.h */,
+				1AB6A55F1627765F00BE9D46 /* WhatSaleViewController.m */,
+				1AB6A5611627765F00BE9D46 /* WhatSaleViewController.xib */,
+				1A83895A1630C86B00799D99 /* MainScreenViewController.h */,
+				1A83895B1630C86B00799D99 /* MainScreenViewController.m */,
+				1A83895C1630C86B00799D99 /* MainScreenViewController.xib */,
+				1AB6A5531627765E00BE9D46 /* Supporting Files */,
+			);
+			path = WhatSale;
+			sourceTree = "<group>";
+		};
+		1AB6A5531627765E00BE9D46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AB6A5541627765E00BE9D46 /* WhatSale-Info.plist */,
+				1AB6A5551627765F00BE9D46 /* InfoPlist.strings */,
+				1AB6A5581627765F00BE9D46 /* main.m */,
+				1AB6A55A1627765F00BE9D46 /* WhatSale-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AB6A5701627766000BE9D46 /* WhatSaleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AB6A5761627766000BE9D46 /* WhatSaleTests.h */,
+				1AB6A5771627766000BE9D46 /* WhatSaleTests.m */,
+				1AB6A5711627766000BE9D46 /* Supporting Files */,
+			);
+			path = WhatSaleTests;
+			sourceTree = "<group>";
+		};
+		1AB6A5711627766000BE9D46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AB6A5721627766000BE9D46 /* WhatSaleTests-Info.plist */,
+				1AB6A5731627766000BE9D46 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AB6A5471627765E00BE9D46 /* WhatSale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB6A57B1627766000BE9D46 /* Build configuration list for PBXNativeTarget "WhatSale" */;
+			buildPhases = (
+				1AB6A5441627765E00BE9D46 /* Sources */,
+				1AB6A5451627765E00BE9D46 /* Frameworks */,
+				1AB6A5461627765E00BE9D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatSale;
+			productName = WhatSale;
+			productReference = 1AB6A5481627765E00BE9D46 /* WhatSale.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AB6A5681627766000BE9D46 /* WhatSaleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB6A57E1627766000BE9D46 /* Build configuration list for PBXNativeTarget "WhatSaleTests" */;
+			buildPhases = (
+				1AB6A5641627766000BE9D46 /* Sources */,
+				1AB6A5651627766000BE9D46 /* Frameworks */,
+				1AB6A5661627766000BE9D46 /* Resources */,
+				1AB6A5671627766000BE9D46 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AB6A56F1627766000BE9D46 /* PBXTargetDependency */,
+			);
+			name = WhatSaleTests;
+			productName = WhatSaleTests;
+			productReference = 1AB6A5691627766000BE9D46 /* WhatSaleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AB6A53F1627765E00BE9D46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WhatSale;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Pratik Rasam(psr5529) , Pankaj Deshmukh(pbd6595), Himanshu Kale (hsk5260@rit.edu)";
+			};
+			buildConfigurationList = 1AB6A5421627765E00BE9D46 /* Build configuration list for PBXProject "WhatSale" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1AB6A53D1627765E00BE9D46;
+			productRefGroup = 1AB6A5491627765E00BE9D46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AB6A5471627765E00BE9D46 /* WhatSale */,
+				1AB6A5681627766000BE9D46 /* WhatSaleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AB6A5461627765E00BE9D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11786BA0165310850046C817 /* ChangePasswordViewController.xib in Resources */,
+				1AB6A5571627765F00BE9D46 /* InfoPlist.strings in Resources */,
+				1AB6A5631627765F00BE9D46 /* WhatSaleViewController.xib in Resources */,
+				1A83895E1630C86B00799D99 /* MainScreenViewController.xib in Resources */,
+				1A1E17E61634801700AE989C /* ItemTableViewController.xib in Resources */,
+				1153C6131646F6D3002B57E0 /* PostItemViewController.xib in Resources */,
+				11F0C5181634A0EE00ACD4A0 /* whtslogo.png in Resources */,
+				1ACCAFA316406E7000B6883C /* NearMeViewController.xib in Resources */,
+				1ABFA1CD16456D4A00533FAF /* BuyViewController.xib in Resources */,
+				1153C61D164729BD002B57E0 /* UpdateItemViewController.xib in Resources */,
+				1153C62116475D2D002B57E0 /* no_image.jpg in Resources */,
+				1167C6BB164AF26F00A723F2 /* ItemDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB6A5661627766000BE9D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB6A5751627766000BE9D46 /* InfoPlist.strings in Resources */,
+				1A1E17E71634801700AE989C /* ItemTableViewController.xib in Resources */,
+				1153C6101646F412002B57E0 /* ItemTableViewCell.xib in Resources */,
+				1153C6121646F54D002B57E0 /* PostItemViewController.xib in Resources */,
+				11786B9E165310680046C817 /* ChangePasswordViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AB6A5671627766000BE9D46 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AB6A5441627765E00BE9D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11786BA1165310950046C817 /* ChangePasswordViewController.m in Sources */,
+				1AB6A5591627765F00BE9D46 /* main.m in Sources */,
+				1AB6A55D1627765F00BE9D46 /* WhatSaleAppDelegate.m in Sources */,
+				1AB6A5601627765F00BE9D46 /* WhatSaleViewController.m in Sources */,
+				1A2F1D33162A11790020DA53 /* Session.m in Sources */,
+				1A13790B162A129C009B315B /* User.m in Sources */,
+				1A1E17E21634801700AE989C /* PostItemViewController.m in Sources */,
+				1A13790F162A12B7009B315B /* Listing.m in Sources */,
+				1153C6151646F70C002B57E0 /* SlidingDatePicker.m in Sources */,
+				1A83895D1630C86B00799D99 /* MainScreenViewController.m in Sources */,
+				1153C6161646F764002B57E0 /* ItemTableViewCell.m in Sources */,
+				1A1E17DC16347FFE00AE989C /* ItemTableViewController.m in Sources */,
+				1A1E17EB1634840D00AE989C /* ImageViewWithBorder.m in Sources */,
+				1ACCAFA216406E7000B6883C /* NearMeViewController.m in Sources */,
+				1A446CD616431EA80056EC42 /* Annotation.m in Sources */,
+				1ABFA1CC16456D4A00533FAF /* BuyViewController.m in Sources */,
+				1153C61C164729BD002B57E0 /* UpdateItemViewController.m in Sources */,
+				1167C6BA164AF26F00A723F2 /* ItemDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB6A5641627766000BE9D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB6A5781627766000BE9D46 /* WhatSaleTests.m in Sources */,
+				1A1E17DD16347FFE00AE989C /* ItemTableViewController.m in Sources */,
+				1A1E17E31634801700AE989C /* PostItemViewController.m in Sources */,
+				1A1E17EC1634840D00AE989C /* ImageViewWithBorder.m in Sources */,
+				1153C60A1646F005002B57E0 /* SlidingDatePicker.m in Sources */,
+				1153C60F1646F412002B57E0 /* ItemTableViewCell.m in Sources */,
+				11786B9D165310680046C817 /* ChangePasswordViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AB6A56F1627766000BE9D46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AB6A5471627765E00BE9D46 /* WhatSale */;
+			targetProxy = 1AB6A56E1627766000BE9D46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AB6A5551627765F00BE9D46 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AB6A5561627765F00BE9D46 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1AB6A5611627765F00BE9D46 /* WhatSaleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AB6A5621627765F00BE9D46 /* en */,
+			);
+			name = WhatSaleViewController.xib;
+			sourceTree = "<group>";
+		};
+		1AB6A5731627766000BE9D46 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AB6A5741627766000BE9D46 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AB6A5791627766000BE9D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1AB6A57A1627766000BE9D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AB6A57C1627766000BE9D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatSale/WhatSale-Prefix.pch";
+				INFOPLIST_FILE = "WhatSale/WhatSale-Info.plist";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1AB6A57D1627766000BE9D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatSale/WhatSale-Prefix.pch";
+				INFOPLIST_FILE = "WhatSale/WhatSale-Info.plist";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1AB6A57F1627766000BE9D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WhatSale.app/WhatSale";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatSale/WhatSale-Prefix.pch";
+				INFOPLIST_FILE = "WhatSaleTests/WhatSaleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1AB6A5801627766000BE9D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WhatSale.app/WhatSale";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatSale/WhatSale-Prefix.pch";
+				INFOPLIST_FILE = "WhatSaleTests/WhatSaleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AB6A5421627765E00BE9D46 /* Build configuration list for PBXProject "WhatSale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB6A5791627766000BE9D46 /* Debug */,
+				1AB6A57A1627766000BE9D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB6A57B1627766000BE9D46 /* Build configuration list for PBXNativeTarget "WhatSale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB6A57C1627766000BE9D46 /* Debug */,
+				1AB6A57D1627766000BE9D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB6A57E1627766000BE9D46 /* Build configuration list for PBXNativeTarget "WhatSaleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB6A57F1627766000BE9D46 /* Debug */,
+				1AB6A5801627766000BE9D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AB6A53F1627765E00BE9D46 /* Project object */;
+}
